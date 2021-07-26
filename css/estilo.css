@@ -1,0 +1,226 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav, footer {
+	background-color: #231f20;
+}
+
+nav h1 {
+	height: 60px;
+	width: 120px;
+	margin: 0;
+	font-size: 0;
+	background: url(../img/logo-alternativo.svg) no-repeat center;
+}
+
+.cerrar-sesion {
+    padding-top: 10px;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 90;
+}
+
+nav.row {
+	margin-right: 0 !important;
+}
+
+main {
+	max-width: 1500px;
+	margin: auto;
+}
+
+#contacto {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background: url(../img/logo.svg) no-repeat center;
+}
+
+footer div div p {
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 0 !important;
+}
+
+a[href*="sofia.lopez"] {
+	text-decoration: none;
+	display: inline-block;
+	width: 250px;
+	color: white;
+	text-align: right;
+	background: url(../img/mail.svg) no-repeat;
+}
+
+#redes {
+	padding: 0 80px;
+}
+
+#ig {
+	width: 50px;
+	height: 50px;
+	background: url(../img/ig.svg) no-repeat center;
+}
+
+.calesita > div {
+	max-width: 320px;
+	max-height: 170px;
+	margin: auto;
+}
+@media only screen and (min-width: 321px) and (max-width: 640px){
+	.calesita > div {
+		max-width: 640px;
+		max-height: 290px;
+	}
+}
+
+@media only screen and (min-width: 641px){
+	.calesita > div {
+		max-width: 1500px;
+		max-height: 680px;
+	}
+}
+
+.cflex{
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+.red {
+	color: red;
+}
+
+.titulo {
+	background-color: #7c1f5d;
+	color: white;
+	border-radius: 10px;
+	padding: 0.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1.6rem;
+}
+
+.primario {
+	color:#7c1f5d;
+}
+
+.producto {
+	max-width: 300px !important;
+	min-height: 510px;
+}
+
+.categoria {
+	max-width: 300px !important;
+}
+
+.producto a:hover, .categoria a:hover {
+	filter: opacity(70%);
+}
+
+.desapretador {
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+.info {
+	border-radius: 16px;
+	border: solid 1px gainsboro;
+	padding: 1rem 2rem;
+	min-height: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 840px){
+	.info{
+		min-height: 466px;
+	}
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1168px){
+	.info{
+		min-height: 420px;
+	}
+}
+
+.vertodos {
+	font-size: 1.3rem !important;
+	width: 50%;
+	margin-bottom: 2rem;
+}
+
+.titulo404 {
+	font-size: 4rem;
+	color: #231f20;
+	margin-top: 1rem;
+}
+
+@media only screen and (min-width: 720px){
+	.img404 {
+		background: url(../img/404.png) center no-repeat;
+		width: 100%;
+		height: 446px;
+	}
+}
+
+@media only screen and (max-width: 719px){
+.img404 {
+		background: url(../img/small404.png) center no-repeat;
+		width: 100%;
+		height: 198px;
+	}
+}
+
+@media only screen and (min-width: 720px){
+	section h2:nth-last-child(2){
+		margin-top: 25px;
+	}
+}
+
+.msg-ok{
+	background-color: rgb(185, 255, 185);
+	color: green;
+	text-align: center;
+	padding: 6px;
+	margin-bottom: 1rem;
+}
+
+.msg-mal{
+	background-color: rgb(255, 175, 175);
+	color: rgb(173, 9, 9);
+	text-align: center;
+	padding: 6px;
+	margin-bottom: 1rem;
+}
+
+.prod-cat{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.catSelector {
+	text-decoration: none;
+	color: #7c1f5d;
+	margin-right: 1.5rem;
+	padding: .5rem;
+	border: #7c1f5d 1px solid;
+	border-radius: 15px;
+}
+
+.catSelector:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #7c1f5d;
+}
+
+.catActiva, .catActiva:hover{
+	text-decoration: none;
+	margin-right: 1.5rem;
+	padding: .5rem;
+	border: #7c1f5d 1px solid;
+	background-color: #7c1f5d;
+	border-radius: 15px;
+	color: white;
+}
